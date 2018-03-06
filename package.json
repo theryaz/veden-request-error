@@ -1,0 +1,19 @@
+{
+  "name": "veden-request-error",
+  "version": "1.0.0",
+  "description": "Simple custom error class for use with Express App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theryaz/veden-request-error.git"
+  },
+  "author": "Ryan Lawson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theryaz/veden-request-error/issues"
+  },
+  "homepage": "https://github.com/theryaz/veden-request-error#readme"
+}
