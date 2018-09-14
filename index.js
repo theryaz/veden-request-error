@@ -10,9 +10,9 @@ class RequestError extends Error{
 
 RequestError.handleError = (err,req,res,next) => {
 	if(err){
-		winston.log('error',err);
+		console.log('error',err);
 		let timestamp = new Date().toISOString();
-		winston.log('error','Error Caught',err.status_code);
+		console.log('error','Error Caught',err.status_code);
 		let message;
 		if(process.env.NODE_ENV !== "production"){
 			message = err.message;
