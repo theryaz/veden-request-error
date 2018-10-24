@@ -43,7 +43,7 @@ RequestError.handleError = (err,req,res,next) => {
 					message = err.message;
 			}
 		}
-		res.status(err.status_code || 500).json({result:{message:message, json: err.json}});
+		res.status(err.status_code || 500).json({result:{message,...err.json}});
 	}else{
 		next();
 	}
