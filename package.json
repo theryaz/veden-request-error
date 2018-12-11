@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/theryaz/veden-request-error/issues"
   },
-  "homepage": "https://github.com/theryaz/veden-request-error#readme"
+  "homepage": "https://github.com/theryaz/veden-request-error#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0"
+  }
 }

@@ -8,7 +8,7 @@ class RequestError extends Error{
 	}
 };
 
-RequestError.handleError = (err,req,res,next) => {
+handleError = (err,req,res,next) => {
 	if(err){
 		console.log('error',err);
 		let timestamp = new Date().toISOString();
@@ -49,4 +49,4 @@ RequestError.handleError = (err,req,res,next) => {
 	}
 };
 
-module.exports = RequestError;
+module.exports = {RequestError,handleError};
