@@ -5,7 +5,7 @@ export = veden_request_error;
 
 declare namespace veden_request_error{
 	class RequestError extends Error {
-		constructor(message: string, status_code: number, json: Object)
+		constructor(message: string, status_code: number, json?: Object)
 		public status_code: number;
 		public json: Object;
 	}
